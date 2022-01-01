@@ -12,6 +12,21 @@ turtle.colormode(255)
 # green = 224, 32, 48, 5
 # blue = 250, 168, 255, 230
 
+red = 3
+green = 4
+blue = 80
+
+pen.pencolor(red,green,blue)
+pen.width(7)
+#drawing the rectangle
+pen.up()
+pen.goto(-100,0)
+pen.down()
+pen.goto(0,100)
+pen.goto(100,0)
+pen.goto(0,-100)
+pen.goto(-100,0)
+
 pen.width(0)
 red = 6
 green = 4
