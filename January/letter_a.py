@@ -1,16 +1,17 @@
-from cmath import sqrt
-import turtle
-import math
+# from cmath import sqrt
+# import turtle
+# import math
 
-pen = turtle.Turtle()
-turtle.Screen().bgcolor('black')
-pen.pencolor('white')
-pen.speed(0)
+# pen = turtle.Turtle()
+# turtle.Screen().bgcolor('black')
+# pen.pencolor('white')
+# pen.speed(0)
 
 
-def letter_a(points):
+def letter_a(math, pen, points):
+
     pen.setheading(360)
-    pen.width(2)
+    pen.width(3)
     pen.left(90)
     pen.forward(6 * points)  # 60
     pen.backward(6 * points)  # 60
@@ -24,7 +25,7 @@ def letter_a(points):
     pen.forward(7 * points)  # 70
     pen.backward(7 * points)  # 70
 
-    pen.width(2)
+    pen.width(3)
     pen.up()
     pen.right(90)
     pen.forward(2 * points)  # 20
@@ -40,26 +41,26 @@ def letter_a(points):
     print(line_angle)
     pen.left(line_angle+90)
     pen.forward(line)
-    pen.width(2)
+    pen.width(3)
     pen.right(line_angle+180+line_angle)
     pen.forward(line)
 
 
-pen.up()
-pen.setheading(180+90)
-pen.forward(100)
-pen.down()
-letter_a(40)
+# pen.up()
+# pen.setheading(180+90)
+# pen.forward(100)
+# pen.down()
+# letter_a(40)
 
-pen.hideturtle()
+# pen.hideturtle()
 
 
-turtle.done()
+# turtle.done()
 
-x = 100
-angle1 = 45
-angle2 = 45
-angle3 = 90
+# x = 100
+# angle1 = 45
+# angle2 = 45
+# angle3 = 90
 
 
 # pen.left(angle1)
